@@ -33,6 +33,7 @@ Menggunakan Image Data Generator gambar di rescale dengan preprocessing function
 
 ## Model 
 ![model vgg](https://raw.githubusercontent.com/RamdaniTarjianto/Diagnosis_Malaria_VGG16/main/image/layers%20vgg16.png)
+
 Dalam penelitian penulis, mencoba memodifikasi arsitektur dari model VGG-16. Umumnya, VGG-16 memiliki 3 Fully Connected Layer berurut pada bagian akhir layer sebagai penghubung unit aktivasi layer sebelumnya. Disini kami mencoba untuk membuat terapan baru dengan melakukan variasi pada bagian Fully Connected Layer. Kami menambahkan sebuah flatten layer setelah konvolusi layer pada bagian akhir model.  Flatten layer berfungsi untuk mengubah input data menjadi array 1 dimensi untuk dijadikan input ke layer berikutnya. Flatten layer juga berfungsi untuk menyamakan output dari konvolusi layer menjadi single long feature vector. Setelah itu, kami menambahkan sebuah dropout layer sebesar 0.2 di antara fully connected layer untuk mencegah overfitting pada data. 
 
 ## Eksperimen
