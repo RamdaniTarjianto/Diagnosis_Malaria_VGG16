@@ -13,6 +13,7 @@ Pada penelitian ini penulis akan menggunakan model Convolutional Neural Network 
 
 ## Metode
 ![design eksperiment](https://raw.githubusercontent.com/RamdaniTarjianto/Diagnosis_Malaria_VGG16/main/image/alur%20gambar.png)
+
 Tahap pertama dari penelitian ini adalah menyiapkan Malaria Cell Image Dataset yang berasal dari situs Kaggle dengan total data sebanyak 27.558 gambar, kemudian dataset gambar diubah menjadi bentuk Dataframe, lalu di dibagi menjadi data Training, data Testing dan data Validasi menggunakan train test split dengan perbandingan 90% Training, 5% Testing, 5% Validasi. Selanjutnya model VGG-16 dilatih, dengan menggunakan Optimizer RMSProp, Loss menggunakan categorical crossentropy, dan nilai matriks yang diukur pada penelitian ini menggunakan nilai accuracy sebagai nilai pengukurannya. dan juga kami mencoba membandingan kinerja model VGG16 dengan model CNN. dalam penelitian ini model evaluasi menggunakan confusion matriks untuk melihat nilai Presisi, Recall dan F1-score dalam setiap kelas yang diprediksi.
 
 ## Dataset
@@ -23,6 +24,8 @@ Penelitian ini menggunakan Malaria Cell Image Dataset yang berasal dari situs ka
 | 27558, |13779 | 13779 |
 
 ![design eksperiment](https://raw.githubusercontent.com/RamdaniTarjianto/Diagnosis_Malaria_VGG16/main/image/gambar%20dataset.PNG)
+
+
 Sel darah merah yang terinfeksi malaria (a) dan Sel darah merah normal (b)
 
 ## Data Preprocessing
