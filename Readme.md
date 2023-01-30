@@ -21,6 +21,7 @@ Penelitian ini menggunakan Malaria Cell Image Dataset yang berasal dari situs ka
 | Total Number Of Data | Infected | Uninfected |
 |----------|----------|----------|
 | 27558, |13779 | 13779 |
+
 ![design eksperiment](https://raw.githubusercontent.com/RamdaniTarjianto/Diagnosis_Malaria_VGG16/main/image/gambar%20dataset.PNG)
 Sel darah merah yang terinfeksi malaria (a) dan Sel darah merah normal (b)
 
